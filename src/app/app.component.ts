@@ -10,9 +10,9 @@ import { OrderDialogComponent } from './order-dialog/order-dialog.component';
 export class AppComponent {
   title = 'oms-2023';
 
-  constructor(private dialog: MatDialog){}
+  constructor(private dialog: MatDialog) { }
 
   openOrderDialog() {
-    this.dialog.open(OrderDialogComponent, {width: '30%'});
+    this.dialog.open(OrderDialogComponent, { width: '30%' });
   }
 }

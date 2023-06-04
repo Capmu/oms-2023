@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./order-dialog.component.scss']
 })
 export class OrderDialogComponent {
-
+  trackingStatus = [
+    'Picked up', 
+    'On delivery', 
+    'Received', 
+    'Payment Success'
+  ]
 }
