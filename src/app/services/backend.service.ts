@@ -15,4 +15,12 @@ export class BackendService {
   getOrder() {
     return this.http.get<any>('http://localhost:3000/order')
   }
+
+  putOrder(data: any, id: number) {
+    return this.http.put<any>(`http://localhost:3000/order/${id}`, data)
+  }
+
+  deleteOrder(id: number) {
+    return this.http.delete<any>(`http://localhost:3000/order/${id}`)
+  }
 }
