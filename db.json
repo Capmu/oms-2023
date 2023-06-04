@@ -1,3 +1,24 @@
 {
-  "order": []
+  "order": [
+    {
+      "trackingNumber": "cc-001",
+      "receiver": "John Wick",
+      "pickupDate": "2023-06-03T17:00:00.000Z",
+      "address": "Bangkok 10150",
+      "paymentType": "Transfer",
+      "price": 100,
+      "trackingStatus": "Picked up",
+      "id": 1
+    },
+    {
+      "trackingNumber": "cc-002",
+      "receiver": "Tony Stark",
+      "pickupDate": "2023-06-02T17:00:00.000Z",
+      "address": "USA",
+      "paymentType": "COD",
+      "price": 1,
+      "trackingStatus": "On delivery",
+      "id": 2
+    }
+  ]
 }
